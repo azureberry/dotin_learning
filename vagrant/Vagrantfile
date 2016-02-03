@@ -23,7 +23,7 @@ Vagrant.configure(2) do |config|
       'recipe[build-essential]',
       'recipe[ruby]',
       'recipe[bundler]',
-      # 'recipe[python]',
+      # 'recipe[sqlite]',
       'recipe[git]',
       "recipe[chef-repo::default]"
     ]

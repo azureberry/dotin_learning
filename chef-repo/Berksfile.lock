@@ -1,0 +1,30 @@
+DEPENDENCIES
+  build-essential
+  bundler
+  chef-repo
+    path: .
+    metadata: true
+  git
+  ruby
+  sqlite
+
+GRAPH
+  build-essential (2.2.4)
+  bundler (0.2.0)
+    rubygems (>= 0.0.0)
+  chef-repo (0.1.0)
+  chef_handler (1.2.0)
+  dmg (2.3.0)
+  git (4.3.6)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  ruby (0.9.3)
+  rubygems (0.3.0)
+  sqlite (1.1.2)
+  windows (1.39.1)
+    chef_handler (>= 0.0.0)
+  yum (3.9.0)
+  yum-epel (0.6.5)
+    yum (~> 3.2)

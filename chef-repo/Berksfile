@@ -4,5 +4,6 @@ metadata
 
 cookbook "build-essential"
 cookbook 'ruby'
-cookbook 'bundle'
+cookbook 'bundler'
 cookbook 'git'
+#cookbook 'sqlite'
