@@ -1,0 +1,8 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook "build-essential"
+cookbook 'ruby'
+cookbook 'bundle'
+cookbook 'git'
